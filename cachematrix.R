@@ -13,7 +13,6 @@
 
 ## This function accepts a matrix as input and creates a function to cache
 ## the inverse of the matrix
-
 makeCacheMatrix <- function(x = matrix()) {
      m <- NULL
      set <- function(y) {
@@ -32,7 +31,6 @@ makeCacheMatrix <- function(x = matrix()) {
 ## this function utilizes the features of makeCacheMatrix to solve for
 ## The inverse of a matrix utilizing a cache to improve performance
 ## by not recomputing a matrix element that has already been computed
-
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
 
